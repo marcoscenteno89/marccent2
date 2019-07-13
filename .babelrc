@@ -1,0 +1,4 @@
+{
+    "present": ["@babel/present-env", "@babel/present-react"],
+    "plugins": ["transform-class-properties"]
+}
