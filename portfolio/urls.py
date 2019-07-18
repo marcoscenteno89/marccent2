@@ -8,10 +8,6 @@ router = routers.DefaultRouter()
 router.register('api', portfolioViewSet, 'portfolio')
 
 urlpatterns = [
-    url('api', include(router.urls))
-]
-
-urlpatterns += [
+    url('api', include(router.urls)),
     url('', views.home)
-    # re_path(r'(?P<path>.*)', views.home)
 ]
