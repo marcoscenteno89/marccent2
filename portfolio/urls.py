@@ -6,7 +6,7 @@ from django.urls import path, include, re_path
 from . import views
 
 router = routers.DefaultRouter()
-router.register('', portfolioViewSet, 'portfolio')
+router.register('', portfolioViewSet, 'Contact')
 
 urlpatterns = [
     url('api', include(router.urls)),

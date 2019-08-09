@@ -1,0 +1,46 @@
+html {
+    font-size: calc(14px + (19 - 14) * ((100vw - 300px) / (1900 - 300)));
+    line-height: 1.15rem;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+.blue { background-color: #007bff; } 
+.indigo  { background-color: #6610f2; } 
+.purple  { background-color: #6f42c1; } 
+.pink  { background-color: #e83e8c; } 
+.red  { background-color: #dc3545;} 
+.orange  { background-color: #fd7e14; } 
+.yellow  { background-color: #ffc107; } 
+.green  { background-color: #28a745; } 
+.teal  { background-color: #20c997; } 
+.cyan  { background-color: #17a2b8; } 
+.white  { background-color: #fff; } 
+.gray  { background-color: #6c757d; } 
+.gray-dark  { background-color: #343a40;} 
+.primary  { background-color: #007bff; } 
+.secondary  { background-color: #6c757d; } 
+.success  { background-color: #28a745; } 
+.info  { background-color: #17a2b8; } 
+.warning  { background-color: #ffc107; } 
+.danger  { background-color: #dc3545; } 
+.light  { background-color: #f8f9fa; } 
+.dark { background-color: #343a40; } 

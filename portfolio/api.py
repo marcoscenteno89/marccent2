@@ -1,9 +1,10 @@
-from portfolio.models import Contact
+from portfolio.models import Contact, Address
 from rest_framework import viewsets, permissions
 from .serializers import portfolioSerializer
 
 class portfolioViewSet(viewsets.ModelViewSet):
     queryset = Contact.objects.all()
+
     permission_classes = [
         permissions.AllowAny
     ]
