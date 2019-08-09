@@ -6,9 +6,9 @@ from django.urls import path, include, re_path
 from . import views
 
 router = routers.DefaultRouter()
-router.register('api', portfolioViewSet, 'portfolio')
+router.register('', portfolioViewSet, 'portfolio')
 
 urlpatterns = [
     url('api', include(router.urls)),
-    # url('', views.home),
+    url('', views.home),
 ]
