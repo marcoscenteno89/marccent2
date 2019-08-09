@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from portfolio.models import portfolio
+from portfolio.models import Contact
 
 class portfolioSerializer(serializers.ModelSerializer):
     class Meta:
-        model = portfolio
+        model = Contact
         fields = '__all__'
