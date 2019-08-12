@@ -1,4 +1,4 @@
-from portfolio.models import Contact, Address
+from portfolio.models import Contact
 from rest_framework import viewsets, permissions
 from .serializers import portfolioSerializer
 

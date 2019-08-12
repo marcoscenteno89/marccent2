@@ -3,4 +3,4 @@ from .models import Contact, Phone, Email, Address
 
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
-    list_display = ['fname', 'lname']
+    list_display = ['first_name', 'last_name']
